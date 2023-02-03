@@ -2,27 +2,28 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
+    darkMode: "class",
 
-  content: [
-    "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
-    "./vendor/laravel/jetstream/**/*.blade.php",
-    "./storage/framework/views/*.php",
-    "./resources/views/**/*.blade.php",
-    "./resources/js/**/*.vue",
-  ],
+    content: [
+        "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+        "./vendor/laravel/jetstream/**/*.blade.php",
+        "./storage/framework/views/*.php",
+        "./resources/views/**/*.blade.php",
+        "./resources/js/**/*.vue",
+    ],
 
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Nunito", ...defaultTheme.fontFamily.sans],
-      },
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ["Nunito", ...defaultTheme.fontFamily.sans],
+                kaushan: ["Kaushan Script", "cursive"],
+            },
+        },
     },
-  },
 
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/typography"),
-    require("prettier-plugin-tailwindcss"),
-  ],
+    plugins: [
+        require("@tailwindcss/forms"),
+        require("@tailwindcss/typography"),
+        require("prettier-plugin-tailwindcss"),
+    ],
 };

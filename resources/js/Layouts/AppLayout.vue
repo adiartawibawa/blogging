@@ -5,7 +5,7 @@ import Footer from "./AppComponents/Footer.vue";
 </script>
 
 <template>
-    <div class="bg-slate-900 text-gray-100">
+    <div class="bg-slate-900 px-4 text-gray-100 md:px-0">
         <!-- Navigation  -->
         <Navigation />
 

@@ -6,11 +6,11 @@
             <div class="text-sm text-gray-200">
                 © Copyright 2023. Crafted with 💙 by
                 <a
-                    class="text-cyan-400 hover:underline"
+                    class="bg-gradient-to-r from-violet-500 to-indigo-500 bg-clip-text text-transparent hover:underline"
                     href="https://creativedesignsguru.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >PRADStudio</a
+                    >Orcanimus</a
                 >.
             </div>
         </div>

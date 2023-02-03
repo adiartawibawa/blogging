@@ -8,7 +8,7 @@
                 <div class="text-3xl font-bold">
                     Subscribe to my
                     <span
-                        class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent"
+                        class="bg-gradient-to-r from-violet-500 to-indigo-500 bg-clip-text text-transparent"
                         >Newsletters</span
                     >
                 </div>
@@ -25,7 +25,7 @@
                     <input
                         class="w-full appearance-none bg-slate-800 focus:outline-none"
                     /><button
-                        class="ml-2 shrink-0 rounded-full bg-gradient-to-br from-sky-500 to-cyan-400 px-3 py-1 text-sm font-medium hover:from-sky-700 hover:to-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600/50"
+                        class="ml-2 shrink-0 rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 px-3 py-1 text-sm font-medium hover:from-sky-700 hover:to-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600/50"
                         type="submit"
                     >
                         Subscribe
