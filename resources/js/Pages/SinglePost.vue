@@ -7,16 +7,12 @@ import AppLayout from "@/Layouts/AppLayout.vue";
     <Head title="Single Post" />
 
     <AppLayout>
-        <div class="mx-auto max-w-screen-lg px-3 py-6">
+        <div class="mx-auto max-w-screen-xl px-4 py-6">
             <h1 class="text-center text-3xl font-bold">Typography example</h1>
             <div class="mt-2 text-center text-sm text-gray-400">
-                By
-                <!-- -->Adi Arta Wibawa<!-- -->
-                on<!-- -->
-                <!-- -->
-                Jan 6, 2023
+                By Adi Arta Wibawa on Jan 6, 2023
             </div>
-            <div class="mx-auto mt-5 max-w-prose">
+            <div class="mx-auto mt-5 w-full max-w-2xl">
                 <div class="aspect-w-3 aspect-h-2">
                     <img
                         class="h-full w-full rounded-lg object-cover object-center"
@@ -25,7 +21,9 @@ import AppLayout from "@/Layouts/AppLayout.vue";
                         loading="lazy"
                     />
                 </div>
-                <div class="prose prose-invert mt-8 prose-img:rounded-lg">
+                <div
+                    class="prose prose-invert mx-auto mt-8 max-w-2xl prose-img:rounded-lg"
+                >
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Dolor sequi, mollitia nulla dicta voluptatem modi aliquid
                     explicabo porro vitae, praesentium voluptas temporibus
