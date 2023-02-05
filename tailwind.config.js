@@ -17,6 +17,7 @@ module.exports = {
             fontFamily: {
                 sans: ["Nunito", ...defaultTheme.fontFamily.sans],
                 kaushan: ["Kaushan Script", "cursive"],
+                merriweather: ['Merriweather', "serif"],
             },
         },
     },
